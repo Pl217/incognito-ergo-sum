@@ -1,0 +1,46 @@
+{
+	"manifest_version": 2,
+
+	"name": "Incognito, ergo sum",
+	"description": "This extensions opens selected tab in incognito window, and allows cookies if disabled",
+	"version": "0.2",
+
+	"background": {
+		"persistent": false,
+		"scripts": ["incognito.js"]
+	},
+
+	"browser_action": {
+		"default_icon": {
+			"19": "static/19.png",
+			"38": "static/38.png"
+		},
+		"default_title": "Change Cognition"
+	},
+
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+I"
+			}
+		}
+	},
+
+	"icons": {
+		"128": "static/128.png",
+		"16": "static/16.png",
+		"48": "static/48.png"
+	},
+
+	"options_ui": {
+		"chrome_style": true,
+		"page": "options.html"
+	},
+
+	"permissions": [
+		"activeTab",
+		"history",
+		"contentSettings",
+		"contextMenus"
+	]
+}

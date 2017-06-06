@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Incognito, ergo sum: Options</title>
+</head>
+
+<body style="width: 500px; font-size: 15px;">
+   <div>
+      <p>
+         <span>What to do with the current tab after changing cognition mode <b>*</b> ?</span>
+         <br>
+         <select id="option">
+            <option value="close">Close and Remove from History (Default)</option>
+            <option value="none">Don't Close or Remove from History</option>
+         </select>
+      </p>
+
+      <p>&nbsp;</p>
+
+      <p>
+         <span>The incognito tab should open:</span>
+         <br>
+         <select id="state">
+            <option value="maximized">Maximized (Default)</option>
+            <option value="normal">Normal</option>
+         </select>
+      </p>
+
+      <p>&nbsp;</p>
+
+      <p>
+         <span>Allow cookies in incognito session if blocked for current tab webpage domain?</span>
+         <br>
+         <select id="cookies">
+            <option value="allow">Allow (Default)</option>
+            <option value="block">Block</option>
+         </select>
+      </p>
+
+   </div>
+
+   <p>&nbsp;</p>
+   <hr>
+   <em>Cognition mode: Whether current tab is in incognito or regular window</em>
+   <hr>
+
+   <button style="background: #007849; padding: 5px; color: white;" id="save" style="margin-top: 20px;">Save</button> &nbsp; <span id="status" style="color: red;"></span>
+
+   <script src="options.js"></script>
+</body>
+
+</html>
