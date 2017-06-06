@@ -1,7 +1,7 @@
 # Incognito, ergo sum
 This extensions opens selected tab in incognito window, and allows cookies for the domain, if cookies are disabled
 
-![Extension logo](https://github.com/Pl217/incognito-ergo-sum/blob/master/static/128x128.png "Extension logo")
+![Extension logo](https://github.com/Pl217/incognito-ergo-sum/blob/master/static/128.png "Extension logo")
 
 **_Important!_** This extension requires you to '_Allow in incognito_'.
 
